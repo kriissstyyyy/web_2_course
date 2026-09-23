@@ -1,0 +1,12 @@
+.page {
+  position: relative;
+  width: 100%;
+  max-width: var(--layout-width);
+  margin: 0 auto;
+  overflow: hidden;
+  overflow: clip;
+}
+
+.main {
+  display: block;
+}

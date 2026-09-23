@@ -1,0 +1,17 @@
+.section-label {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.5vw, 24px);
+  font-weight: 700;
+  line-height: clamp(26px, 2.5vw, 40px);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 3vw, 48px);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-text);
+}

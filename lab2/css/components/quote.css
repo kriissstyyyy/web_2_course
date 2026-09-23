@@ -1,0 +1,19 @@
+.quote {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 570px;
+  min-height: clamp(120px, 10vw, 160px);
+  padding: 20px clamp(18px, 3.375vw, 54px) 20px clamp(18px, 2.8125vw, 45px);
+  border-left: clamp(6px, 0.625vw, 10px) solid var(--color-accent-deep);
+  background-color: var(--color-surface-soft);
+}
+
+.quote__text {
+  width: 100%;
+  max-width: 460px;
+  font-size: clamp(17px, 1.5vw, 24px);
+  font-weight: 500;
+  line-height: clamp(26px, 2.25vw, 36px);
+  color: var(--color-text);
+}

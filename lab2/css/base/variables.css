@@ -1,0 +1,29 @@
+:root {
+  --color-accent:         #ee4d47;
+  --color-accent-deep:    #ed4d47;
+  --color-accent-dark:    #d63f39;
+  --color-footer:         #f16353;
+  --color-text:           #402b2b;
+  --color-text-inverse:   #ffffff;
+  --color-text-muted:     #f8f9fa;
+  --color-page:           #fef8f5;
+  --color-surface:        #ffffff;
+  --color-surface-soft:   #feece8;
+
+  --font-display: "DM Serif Display", "Times New Roman", Georgia, serif;
+  --font-body:    "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-name:    "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --layout-width: 1600px;
+
+  --radius-button: 5px;
+  --radius-card:   10px;
+  --shadow-card:   0 20px 40px rgba(238, 77, 71, 0.1);
+  --shadow-card-hover: 0 28px 55px rgba(238, 77, 71, 0.22);
+  --shadow-button: 0 12px 24px rgba(238, 77, 71, 0.35);
+
+  --ease-out:      cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-fast: 0.2s;
+  --duration-base: 0.35s;
+  --duration-slow: 0.7s;
+}

@@ -1,0 +1,28 @@
+@import url("base/fonts.css");
+@import url("base/reset.css");
+@import url("base/variables.css");
+@import url("base/typography.css");
+@import url("base/animations.css");
+
+@import url("layout/page.css");
+@import url("layout/header.css");
+@import url("layout/footer.css");
+
+@import url("components/logo.css");
+@import url("components/button.css");
+@import url("components/nav-list.css");
+@import url("components/burger.css");
+@import url("components/section-heading.css");
+@import url("components/quote.css");
+@import url("components/testimonial.css");
+@import url("components/socials.css");
+
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/how-to.css");
+@import url("sections/testimonials.css");
+
+@import url("utils/a11y.css");
+@import url("utils/reveal.css");
+@import url("utils/float.css");
+@import url("utils/motion.css");

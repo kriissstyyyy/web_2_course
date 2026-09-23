@@ -1,0 +1,69 @@
+.how-to__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4.55%;
+  padding: 0 14.625% 0 8.375%;
+}
+
+.how-to__illustration {
+  flex: 0 0 58.52%;
+  min-width: 0;
+  max-width: 721px;
+  height: auto;
+}
+
+.how-to__content {
+  flex: 0 0 36.93%;
+  min-width: 0;
+  max-width: 455px;
+  padding-top: 8.6%;
+}
+
+.how-to__text {
+  margin-top: clamp(16px, 2.8125vw, 45px);
+}
+
+@media (max-width: 1100px) {
+  .how-to__inner {
+    align-items: center;
+    padding: 0 6vw;
+  }
+
+  .how-to__inner {
+    gap: clamp(24px, 4vw, 48px);
+  }
+
+  .how-to__illustration {
+    flex: 0 1 50%;
+  }
+
+  .how-to__content {
+    flex: 1 1 auto;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 899px) {
+  .how-to {
+    padding: 32px 0 8px;
+  }
+
+  .how-to__inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .how-to__illustration {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .how-to__content {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 560px;
+  }
+}

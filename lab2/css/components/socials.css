@@ -1,0 +1,41 @@
+.socials {
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 1.9375vw, 31px);
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(32px, 2.25vw, 36px);
+  height: clamp(32px, 2.25vw, 36px);
+  border-radius: 50%;
+  background-color: var(--color-surface);
+  transition:
+    transform var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out);
+}
+
+.socials__link:hover,
+.socials__link:focus-visible {
+  transform: translateY(-4px) scale(1.1);
+  box-shadow: 0 10px 20px rgba(64, 43, 43, 0.25);
+}
+
+.socials__icon {
+  width: 55%;
+  height: auto;
+  fill: var(--color-accent-deep);
+}
+
+.socials__icon--stroke {
+  fill: none;
+  stroke: var(--color-accent-deep);
+  stroke-width: 2;
+}
+
+.socials__icon--stroke .socials__icon-dot {
+  fill: var(--color-accent-deep);
+  stroke: none;
+}

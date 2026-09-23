@@ -1,0 +1,14 @@
+body {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: clamp(15px, 1.125vw, 18px);
+  line-height: clamp(28px, 2.5vw, 40px);
+  color: var(--color-text);
+  background-color: var(--color-page);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
