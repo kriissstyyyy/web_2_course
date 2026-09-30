@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Page – My Fleet (Airplanes)</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-link">My Fleet</a>
+      <a href="index.html" class="nav-link active">My Airplanes</a>
+      <a href="create.html" class="nav-link">Create Airplane</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" id="searchInput" class="search-input" placeholder="Type something..." autocomplete="off">
+      <button type="button" id="btnSearch" class="btn btn-primary">Search</button>
+      <button type="button" id="btnClear" class="btn btn-outline">Clear</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <aside class="sidebar">
+      <h2 class="sidebar-title">Manage airplanes</h2>
+      <div class="sidebar-section">
+        <div class="toggle-row">
+          <span class="section-label">Sort by the most<br>fuel capacity</span>
+          <label class="toggle">
+            <input type="checkbox" id="sortToggle">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="sidebar-section">
+        <span class="section-label">Count total fuel volume:</span>
+        <button type="button" id="btnCount" class="btn btn-primary" style="width:100%; margin-top:8px;">Count</button>
+        <div id="totalBox" class="total-box" hidden>
+          <div class="total-label">Total fuel volume:</div>
+          <strong id="totalValue">0 л</strong>
+        </div>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div id="cardsGrid" class="cards-grid"></div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

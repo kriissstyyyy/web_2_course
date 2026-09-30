@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Airplane</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav-link">My Fleet</a>
+      <a href="index.html" class="nav-link">My Airplanes</a>
+      <a href="create.html" class="nav-link">Create Airplane</a>
+    </nav>
+  </header>
+
+  <div class="form-page">
+    <div class="form-card">
+      <h1 class="form-title">Edit airplane</h1>
+      <form id="planeForm" novalidate>
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="Text..." required minlength="2" maxlength="80">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="description">Description</label>
+          <textarea class="form-textarea" id="description" name="description" placeholder="Description..." required minlength="10" maxlength="500"></textarea>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="fuelVolume">Fuel volume (liters)</label>
+          <input class="form-input" type="number" id="fuelVolume" name="fuelVolume" placeholder="10000" required min="1000" max="500000" step="1">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="passengers">Passengers</label>
+          <input class="form-input" type="number" id="passengers" name="passengers" placeholder="180" required min="1" max="1000" step="1">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="type">Aircraft type</label>
+          <select class="form-select" id="type" name="type" required>
+            <option value="">Select Type</option>
+            <option value="narrow-body">Narrow-body</option>
+            <option value="wide-body">Wide-body</option>
+            <option value="regional">Regional</option>
+            <option value="superjumbo">Superjumbo</option>
+          </select>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-submit">Save changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <h3 class="modal-title" id="modalTitle">Title</h3>
+      <p class="modal-body" id="modalBody">Message</p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-modal btn-modal-ok" id="modalOk">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/form.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", initEditForm);
+  </script>
+</body>
+</html>
