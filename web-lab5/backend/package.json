@@ -1,0 +1,14 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "REST API for My Fleet airplanes - Lab 5",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0" ,
+    "nodemon": "^1.14.10"
+  }
+}

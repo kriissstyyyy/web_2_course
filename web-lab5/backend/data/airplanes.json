@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2,
+    "name": "Airbus A320neo",
+    "fuelVolume": 26730,
+    "passengers": 180,
+    "description": "Fuel-efficient next-generation single-aisle aircraft with advanced engines.",
+    "image": "assets/plane2.jpg",
+    "lastUpdated": "just now",
+    "type": "narrow-body"
+  },
+  {
+    "id": 3,
+    "name": "Boeing 777-300ER",
+    "fuelVolume": 181280,
+    "passengers": 396,
+    "description": "Long-range wide-body twinjet. One of the most successful commercial aircraft ever.",
+    "image": "assets/plane3.jpg",
+    "lastUpdated": "1 day ago",
+    "type": "wide-body"
+  },
+  {
+    "id": 4,
+    "name": "Airbus A350-900",
+    "fuelVolume": 141160,
+    "passengers": 325,
+    "description": "Modern long-haul wide-body with composite fuselage and excellent fuel efficiency.",
+    "image": "assets/plane4.jpg",
+    "lastUpdated": "3 hours ago",
+    "type": "wide-body"
+  },
+  {
+    "id": 5,
+    "name": "Embraer E190",
+    "fuelVolume": 13000,
+    "passengers": 114,
+    "description": "Regional jet ideal for shorter routes. Comfortable cabin and good performance.",
+    "image": "assets/plane5.jpg",
+    "lastUpdated": "6 hours ago",
+    "type": "regional"
+  },
+  {
+    "id": 6,
+    "name": "Bombardier CRJ900",
+    "fuelVolume": 10630,
+    "passengers": 90,
+    "description": "Popular regional jet used by many airlines for connecting flights.",
+    "image": "assets/plane6.jpg",
+    "lastUpdated": "12 hours ago",
+    "type": "regional"
+  },
+  {
+    "id": 7,
+    "name": "Boeing 787-9 Dreamliner",
+    "fuelVolume": 126370,
+    "passengers": 290,
+    "description": "Advanced composite aircraft with lower fuel consumption and longer range.",
+    "image": "assets/plane7.jpg",
+    "lastUpdated": "4 hours ago",
+    "type": "wide-body"
+  },
+  {
+    "id": 8,
+    "name": "Airbus A380-800",
+    "fuelVolume": 320000,
+    "passengers": 555,
+    "description": "The world's largest passenger airliner. Double-deck superjumbo.",
+    "image": "assets/plane8.jpg",
+    "lastUpdated": "8 hours ago",
+    "type": "superjumbo"
+  }
+]
