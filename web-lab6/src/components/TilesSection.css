@@ -1,0 +1,27 @@
+.tiles-section {
+  padding: 12px 0 56px;
+}
+
+.tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.tiles-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .tiles-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .tiles-grid {
+    grid-template-columns: 1fr;
+  }
+}
