@@ -1,0 +1,22 @@
+.sidebar {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px 20px;
+  height: fit-content;
+}
+
+.sidebar-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.sidebar-section {
+  margin-bottom: 18px;
+}
+
+.sidebar-section:last-child {
+  margin-bottom: 0;
+}
