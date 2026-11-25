@@ -1,0 +1,136 @@
+.item-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.item-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 32px 28px 56px;
+}
+
+.item-back {
+  display: inline-block;
+  margin-bottom: 24px;
+  color: #64748b;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.item-back:hover {
+  color: #0f172a;
+}
+
+.item-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.item-gallery {
+  border-radius: 14px;
+  overflow: hidden;
+  background: #e2e8f0;
+  aspect-ratio: 4 / 3;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.1);
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item-type {
+  display: inline-block;
+  width: fit-content;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.item-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.item-description {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.item-specs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 8px;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.spec {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.spec-label {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.spec-value {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.item-actions {
+  margin-top: 12px;
+}
+
+.item-not-found {
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .item-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .item-title {
+    font-size: 1.6rem;
+  }
+
+  .item-specs {
+    grid-template-columns: 1fr;
+  }
+}

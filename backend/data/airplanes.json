@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Boeing 737-800",
+    "fuelVolume": 26020,
+    "passengers": 189,
+    "description": "The most widely used narrow-body airliner. Reliable short-to-medium haul aircraft.",
+    "image": "plane1.jpg",
+    "type": "Boeing"
+  },
+  {
+    "id": 2,
+    "name": "Airbus A320neo",
+    "fuelVolume": 26730,
+    "passengers": 180,
+    "description": "Fuel-efficient next-generation single-aisle aircraft with advanced engines.",
+    "image": "plane2.jpg",
+    "type": "Airbus"
+  },
+  {
+    "id": 3,
+    "name": "Boeing 777-300ER",
+    "fuelVolume": 181280,
+    "passengers": 396,
+    "description": "Long-range wide-body twinjet. One of the most successful commercial aircraft ever.",
+    "image": "plane3.jpg",
+    "type": "Boeing"
+  },
+  {
+    "id": 4,
+    "name": "Airbus A350-900",
+    "fuelVolume": 141160,
+    "passengers": 325,
+    "description": "Modern long-haul wide-body with composite fuselage and excellent fuel efficiency.",
+    "image": "hero.jpg",
+    "type": "Airbus"
+  },
+  {
+    "id": 5,
+    "name": "Embraer E190",
+    "fuelVolume": 13000,
+    "passengers": 114,
+    "description": "Regional jet ideal for shorter routes. Comfortable cabin and good performance.",
+    "image": "plane1.jpg",
+    "type": "Embraer"
+  },
+  {
+    "id": 6,
+    "name": "Bombardier CRJ900",
+    "fuelVolume": 10630,
+    "passengers": 90,
+    "description": "Popular regional jet used by many airlines for connecting flights.",
+    "image": "plane2.webp",
+    "type": "Bombardier"
+  },
+  {
+    "id": 7,
+    "name": "Boeing 787-9 Dreamliner",
+    "fuelVolume": 126370,
+    "passengers": 290,
+    "description": "Advanced composite aircraft with lower fuel consumption and longer range.",
+    "image": "plane3.jpg",
+    "type": "Boeing"
+  },
+  {
+    "id": 8,
+    "name": "Airbus A380-800",
+    "fuelVolume": 320000,
+    "passengers": 555,
+    "description": "The worlds largest passenger airliner. Double-deck superjumbo.",
+    "image": "hero.jpg",
+    "type": "Airbus"
+  }
+]
